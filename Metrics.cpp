@@ -74,35 +74,6 @@ int main()
 
 	cout << endl;
 
-	if ((dist1 == dist2) && (dist2 == dist3))
-	{
-		cout << "The type of triangle is Equilateral" << endl;
-	}	
-	else if ((dist1 == dist2) || (dist2 == dist3))
-	{
-		cout << "The type of triangle is Isosceles" << endl;
-	}
-	else if ((angle1 == 90) ||	 (angle2 == 90) || (angle3 == 90))
-	{
-		cout << "The type of triangle is Right-angled" << endl;
-	}
-	else if ((angle1 >  90) || (angle2 > 90) || (angle3 > 90))
-	{
-		cout << "The type of triangle is Obtuse-angled" << endl;
-	}
-	else if ((angle1 < 90) && (angle2 < 90) && (angle3 < 90))
-	{
-		cout << "The type of triangle is Scalene" << endl;
-	}
-
-
-
-
-
-
-
-
-
 
 
 
