@@ -11,7 +11,7 @@ struct Point
 	float x;
 	float y;
 
-}name;
+};
 
 double distance(Point a,Point b)
 {
